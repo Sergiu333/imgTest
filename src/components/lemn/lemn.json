@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_lemn_lemns",
+  "info": {
+    "displayName": "lemn"
+  },
+  "options": {},
+  "attributes": {
+    "lemn": {
+      "type": "string"
+    }
+  }
+}

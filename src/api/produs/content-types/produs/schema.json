@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produses",
+  "info": {
+    "singularName": "produs",
+    "pluralName": "produses",
+    "displayName": "produs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "lemn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lemn.lemn"
+    },
+    "acoperis": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acoperis.acoperis"
+    },
+    "latimea": {
+      "type": "biginteger"
+    },
+    "lungimea": {
+      "type": "biginteger"
+    },
+    "multi": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

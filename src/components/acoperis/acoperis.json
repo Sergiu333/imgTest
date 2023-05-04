@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_acoperis_acoperises",
+  "info": {
+    "displayName": "acoperis"
+  },
+  "options": {},
+  "attributes": {
+    "acoperis": {
+      "type": "string"
+    }
+  }
+}

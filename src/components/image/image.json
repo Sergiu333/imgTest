@@ -1,15 +1,9 @@
 {
-  "kind": "collectionType",
-  "collectionName": "tests",
+  "collectionName": "components_image_images",
   "info": {
-    "singularName": "test",
-    "pluralName": "tests",
-    "displayName": "test"
+    "displayName": "image"
   },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
+  "options": {},
   "attributes": {
     "image": {
       "allowedTypes": [
